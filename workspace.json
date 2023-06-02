@@ -1,0 +1,27 @@
+{
+  "type": "workspace",
+  "version": 1,
+  "sections": {
+    "frontends": {
+      "state": "disabled",
+      "template": "https://github.com/solenopsys/tp-frontends"
+    },
+    "backends": {
+      "active": "disabled",
+      "template": "https://github.com/solenopsys/tp-backends"
+    },
+    "contracts": {
+      "active": "disabled",
+      "template": "https://github.com/solenopsys/tp-contracts"
+    },
+    "embedded": {
+      "active": "disabled",
+      "template": "https://github.com/solenopsys/tp-embedded"
+    },
+    "engineering": {
+      "active": "disabled",
+      "template": "https://github.com/solenopsys/tp-engineering"
+    }
+  }
+}
+  
