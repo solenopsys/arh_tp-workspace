@@ -1,6 +1,8 @@
 {
-  "type": "workspace",
-  "version": 1,
+  "format": {
+    "type": "treerepo-backends",
+    "version": "1.0.0"
+  },
   "sections": {
     "frontends": {
       "state": "disabled",
