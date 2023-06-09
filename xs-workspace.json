@@ -6,23 +6,28 @@
   "sections": {
     "frontends": {
       "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-frontends"
+      "template": "https://github.com/solenopsys/tp-frontends",
+      "tags": ["full"]
     },
     "backends": {
       "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-backends"
+      "template": "https://github.com/solenopsys/tp-backends",
+      "tags": ["full"]
     },
     "contracts": {
       "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-contracts"
+      "template": "https://github.com/solenopsys/tp-contracts",
+      "tags": ["full"]
     },
     "embedded": {
       "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-embedded"
+      "template": "https://github.com/solenopsys/tp-embedded",
+      "tags": ["full"]
     },
     "engineering": {
       "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-engineering"
+      "template": "https://github.com/solenopsys/tp-engineering",
+      "tags": ["full"]
     }
   }
 }
