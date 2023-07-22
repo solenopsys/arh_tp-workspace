@@ -1,6 +1,6 @@
 {
   "format": {
-    "type": "treerepo-backends",
+    "type": "treerepo-workspace",
     "version": "1.0.0"
   },
   "sections": {
@@ -12,6 +12,11 @@
     "backends": {
       "state": "disabled",
       "template": "https://github.com/solenopsys/tp-backends",
+      "tags": ["full"]
+    },
+    "tools": {
+      "state": "disabled",
+      "template": "https://github.com/solenopsys/tp-tools",
       "tags": ["full"]
     },
     "contracts": {
