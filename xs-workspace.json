@@ -1,39 +1,21 @@
 {
   "format": {
     "type": "treerepo-workspace",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
-  "sections": {
-    "frontends": {
-      "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-frontends",
-      "tags": ["full"]
+  "templates": {
+    "sections": {
+      "frontends": "https://github.com/solenopsys/tp-frontends",
+      "backends": "https://github.com/solenopsys/tp-backends",
+      "tools": "https://github.com/solenopsys/tp-tools",
+      "contracts": "https://github.com/solenopsys/tp-contracts",
+      "embedded": "https://github.com/solenopsys/tp-embedded",
+      "engineering": "https://github.com/solenopsys/tp-engineering"
     },
-    "backends": {
-      "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-backends",
-      "tags": ["full"]
-    },
-    "tools": {
-      "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-tools",
-      "tags": ["full"]
-    },
-    "contracts": {
-      "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-contracts",
-      "tags": ["full"]
-    },
-    "embedded": {
-      "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-embedded",
-      "tags": ["full"]
-    },
-    "engineering": {
-      "state": "disabled",
-      "template": "https://github.com/solenopsys/tp-engineering",
-      "tags": ["full"]
+    "creation": {
     }
+  },
+  "code": {
   }
 }
   
