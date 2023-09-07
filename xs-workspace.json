@@ -1,16 +1,16 @@
 {
   "format": {
-    "type": "treerepo-workspace",
+    "type": "workspace",
     "version": "2.0.0"
   },
   "templates": {
     "sections": {
-      "frontends": "https://github.com/solenopsys/tp-frontends",
-      "backends": "https://github.com/solenopsys/tp-backends",
-      "tools": "https://github.com/solenopsys/tp-tools",
-      "contracts": "https://github.com/solenopsys/tp-contracts",
-      "embedded": "https://github.com/solenopsys/tp-embedded",
-      "engineering": "https://github.com/solenopsys/tp-engineering"
+      "frontends": "@solenopsys/tp-frontends",
+      "backends": "@solenopsys/tp-backends",
+      "tools": "@solenopsys/tp-tools",
+      "contracts": "@solenopsys/tp-contracts",
+      "embedded": "@solenopsys/tp-embedded",
+      "engineering": "@solenopsys/tp-engineering"
     },
     "creation": {
     }
