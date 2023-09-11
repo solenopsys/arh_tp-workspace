@@ -1,0 +1,39 @@
+{
+  "format": {
+    "type": "config",
+    "version": "0.1.0"
+  },
+  "processors": [
+    {
+      "type": "post",
+      "sections": [
+        "frontends"
+      ],
+      "command": [
+        "code",
+        "add"
+      ],
+      "processor": "ts_injector"
+    }
+  ],
+  "builders": {
+    "front": [
+      "frontends/endpoints"
+    ],
+    "module": [
+      "frontends/modules"
+    ],
+    "frontlib": [
+      "frontends/packages"
+    ],
+    "helm": [
+      "backends/deployments"
+    ],
+    "library": [
+      "backends/lib"
+    ],
+    "container": [
+      "backends/modules"
+    ]
+  }
+}
