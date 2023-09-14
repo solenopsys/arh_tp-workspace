@@ -3,19 +3,23 @@
     "type": "config",
     "version": "0.1.0"
   },
-  "processors": [
-    {
-      "type": "post",
-      "sections": [
-        "frontends"
-      ],
-      "command": [
-        "code",
-        "add"
-      ],
-      "processor": "ts_injector"
+  "processors": {
+    "ts_injector": {
+      "description": "Injects source code location to tsconfig.json file",
+      "triggers": [
+        {
+          "type": "post",
+          "sections": [
+            "frontends"
+          ],
+          "command": [
+            "code",
+            "add"
+          ]
+        }
+      ]
     }
-  ],
+  },
   "builders": {
     "front": [
       "frontends/endpoints"
