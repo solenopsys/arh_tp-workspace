@@ -20,7 +20,7 @@
       ]
     }
   },
-  // default builder for directoried
+  // default builder for directories
   "builders": {
     "front": [
       "frontends/bootstraps"
