@@ -20,21 +20,22 @@
       ]
     }
   },
+  // default builder for directoried
   "builders": {
     "front": [
-      "frontends/endpoints"
+      "frontends/bootstraps"
     ],
     "module": [
       "frontends/modules"
     ],
     "frontlib": [
-      "frontends/packages"
+      "frontends/libraries"
     ],
     "helm": [
       "backends/deployments"
     ],
     "library": [
-      "backends/lib"
+      "backends/libraries"
     ],
     "container": [
       "backends/modules"

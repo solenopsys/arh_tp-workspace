@@ -4,6 +4,7 @@
     "version": "2.1.0"
   },
   "templates": {
+    // templates for sections
     "sections": {
       "frontends": "@solenopsys/tp-frontends",
       "backends": "@solenopsys/tp-backends",
@@ -12,9 +13,11 @@
       "embedded": "@solenopsys/tp-embedded",
       "engineering": "@solenopsys/tp-engineering"
     },
+    // templates for new project generate
     "creation": {
     }
   },
+  // installed code
   "code": {
   }
 }
